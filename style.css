@@ -1,0 +1,45 @@
+.navbar-brand{
+    color: cyan;
+}
+.nav-link{
+    color:cyan;
+}
+.bannerBgImage {
+    height:100vh;
+    background: url("/BannerImage.jpg");
+    background-size:cover;
+    position:relative;
+}
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 3rem;
+}
+.bannerDesc{
+    font-size: 1.5rem;
+}
+.card-img{
+    width: 100%;
+    mix-blend-mode: darken;
+}
+
+/* Technologies section css */
+.technologiesText.card {
+    height: 150px;
+    cursor: pointer;
+  }
+.card-title {
+    text-align: center;
+}
+.technologiesText:hover {
+    border: 2px solid #008000;
+}
+.Achievements:hover{
+    border: 2px solid #000980;
+}
